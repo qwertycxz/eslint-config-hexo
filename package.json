@@ -10,16 +10,16 @@
   ],
   "main": "eslint.js",
   "files": [
-    "eslint.js",
-    "test.js",
-    "ts.js",
-    "ts-test.js"
+    "src/eslint.js",
+    "src/test.js",
+    "src/ts.js",
+    "src/ts-test.js"
   ],
   "exports": {
-    "./eslint": "./eslint.js",
-    "./test": "./test.js",
-    "./ts": "./ts.js",
-    "./ts-test": "./ts-test.js"
+    "./eslint": "./src/eslint.js",
+    "./test": "./src/test.js",
+    "./ts": "./src/ts.js",
+    "./ts-test": "./src/ts-test.js"
   },
   "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
   "maintainers": [

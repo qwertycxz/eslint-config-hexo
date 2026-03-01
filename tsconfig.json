@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "nodenext",
-    "outDir": "lib"
-  }
+    "noEmit": true
+  },
+  "extends": "./src/tsconfig.json",
 }

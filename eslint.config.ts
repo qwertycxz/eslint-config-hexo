@@ -4,8 +4,6 @@ import tsConfig from './src/ts';
 export default [
   ...tsConfig,
   {
-    ignores: [
-	  'lib'
-    ]
+    ignores: ['lib']
   }
 ] satisfies Linter.Config[];
